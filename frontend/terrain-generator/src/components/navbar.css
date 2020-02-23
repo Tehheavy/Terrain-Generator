@@ -1,0 +1,22 @@
+.Navbar ul{
+    display:flex;
+    flex-direction: row;
+
+}
+.Navbar ul li{
+    list-style-type: none;
+    margin-right: 1rem;
+    font-weight:bold;
+    border-radius: 10px;
+    border: 1px solid #1374c3;
+    padding: 5px;
+    background-color: rgba(100, 148, 237, 0.424);
+}
+.Navbar ul li a:visited{
+    text-decoration: none;
+    color:white;
+}
+.Navbar ul li a:hover{
+    text-decoration: none;
+    color:blue;
+}

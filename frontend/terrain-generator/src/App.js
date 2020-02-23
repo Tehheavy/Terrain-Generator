@@ -4,6 +4,7 @@ import './App.css';
 import TwoDimensional from './pages/TwoDimensional'
 import ThreeD from './pages/ThreeD'
 import ThreePage from './pages/ThreePage'
+import Navbar from './components/navbar'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,18 +18,8 @@ function App() {
       <header className="App-header">
         
         <Router>
-        <ul>
-         <li>
-                <Link to="/">Home Page</Link>
-         </li>
-         <li>
-                <Link to="/3d">3d</Link>
-         </li>
-          <li>
-                <Link to="/2d">2d</Link>
-         </li>
-      </ul>
           <div>
+          <Route path="/" component={Navbar} />
             <Route path="/2d" component={TwoDimensional} />
            <Route path="/3d" component={ThreePage} />
             {/* <Route path="/users" component={Users} />
