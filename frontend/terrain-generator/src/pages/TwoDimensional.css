@@ -1,0 +1,17 @@
+.TwoD{
+    display: flex;
+    flex-direction: row;
+}
+.Modifiers{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    
+}
+.Canvas{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+}
