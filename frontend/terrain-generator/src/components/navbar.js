@@ -15,9 +15,11 @@ function Navbar() {
                 <Link to="/3d">3d</Link>
          </li>
          <li>
+                <Link to="/3dMobile">3dMobile</Link>
+         </li>
+         <li>
                 <Link to="/2d">2d</Link>
          </li>
-
       </ul>
     </div>
   );

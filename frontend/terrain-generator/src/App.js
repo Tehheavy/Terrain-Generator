@@ -4,6 +4,7 @@ import './App.css';
 import TwoDimensional from './pages/TwoDimensional'
 import ThreeD from './pages/ThreeD'
 import ThreePage from './pages/ThreePage'
+import ThreePageMobile from './pages/ThreePageMobile'
 import Navbar from './components/navbar'
 import {
   BrowserRouter as Router,
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" component={Navbar} />
             <Route path="/2d" component={TwoDimensional} />
            <Route path="/3d" component={ThreePage} />
+           <Route path="/3dMobile" component={ThreePageMobile} />
             {/* <Route path="/users" component={Users} />
             <Route path="/contact" component={Contact} /> */}
           </div>
